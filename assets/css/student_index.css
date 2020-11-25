@@ -1,0 +1,88 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.container{
+	/*border: 1px solid blue;*/
+    height: 100%;
+    /*position: relative;*/
+}
+.a{
+    width: 200px;
+    height: 120px;
+    margin: 20% 0 0 40%;
+    position: relative; 
+}
+.a2{
+    margin: 10% 0 10% 40%;
+    position: relative; 
+}
+.username p{
+    margin-top: 14px;
+}
+
+
+	/*侧边栏*/
+    .left-menu{
+        /*position: absolute;*/
+        width:160px;
+        /*width:20%;*/
+        /*height: 480px;*/
+        height: 100vh;
+        float: left;
+        /*border: 1px solid red;*/
+        /*border-top: 1px solid #ccc;*/
+        border-right: 1px solid #ccc;
+        overflow: hidden;
+    }
+    /*#list1,#list2,#list3{
+        font-size: 16px;
+    }*/
+    #list1,#list2,#list3 a{
+    	font-size: 12px;
+    	/*border: 1px solid;*/
+    }
+    li{
+        list-style:none;
+        margin-top: 10px;
+        padding-left: 24px;
+        /*border: 1px solid;*/
+    }
+    a{
+        text-decoration: none;
+    }
+    a:focus, a:hover {
+    	/*color: #23527c;*/
+    	color: #f40f40;
+    	text-decoration: none;
+    }
+    li:hover{
+        list-style:none;
+    }
+
+    /*内容区*/
+    .tab-content{
+        /*position: absolute;*/
+    	float: left;
+        /*width: 100vh;*/
+        height: 100vh;
+        /*height: 480px;*/
+    	padding-left: 12px;
+    	/*border: 1px solid;*/
+    }
+
+
+.container-footer{
+    /*border: 1px solid;*/
+    display: flex;
+}
+.footer p{
+    /*padding: 12px;*/
+}
